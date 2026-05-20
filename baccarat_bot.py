@@ -15,7 +15,7 @@ current_multiplier = fibo[st.session_state.current_step - 1]
 suggested_bet = current_multiplier * base_money
 
 st.subheader("🤖 Goiy lenh tiep theo:")
-st.metric(label="So tien can danh", value=f"{suggested_bet:,} VND")
+st.me⁠st.metric(label="So tien can danh", value=f"{suggested_bet}")⁠
 
 if len(st.session_state.history) >= 2:
     last = st.session_state.history[-1]
